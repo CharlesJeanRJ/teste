@@ -7,7 +7,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   
-  function compartilhar(string ref) {
+  function compartilhar() {
     var url = window.location.href,
         f = "https://www.facebook.com/sharer.php?u=";
     window.open(f + url, '_blank').focus();
